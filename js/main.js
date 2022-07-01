@@ -22,7 +22,7 @@ setTimeout(() => {
    HEADER.classList.remove('disactive');
    loadPerson();
    currentTranslate()
-}, 1_000)
+}, 10_000)
 
 async function loadPerson() {
    await axios(`https://swapi.dev/api/films/${currentFilm}`)
